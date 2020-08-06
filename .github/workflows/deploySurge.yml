@@ -24,7 +24,7 @@ jobs:
     - name: Setup Node
     - uses: actions/setup-node@v2-beta
       with:
-        node-veraion: '12'
+        node-version: '12'
 
     # Steps to Install Surge
     - name: Install Surge
